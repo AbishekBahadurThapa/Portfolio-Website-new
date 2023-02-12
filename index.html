@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Website</title>
+    <link rel="stylesheet" href="new.css">
+    
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="portfoliowk.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Hobbies">Hobbies</a></li>
+                <li><a href="#Family">Family</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">References</a></li>
+            </ul>
+            </nav>
+        <div class="header-text">
+            <p>Website Designer</p>
+            <h1>Hi, I'm <span>Abishek Bahadur</span><br>Thapa From Nepal</h1>
+        </div>
+    </div>
+</div>
+<!---------about---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <img src="myself.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsam vel esse voluptatem, atque qui quos, pariatur minus ipsa fuga minima architecto, voluptate porro accusantium officiis repellendus consectetur eaque dolore!</p>
+            
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Presentation</span><br>Personal/Group</li>
+                    <li><span>Web Development</span><br>Web Design</li>
+                    <li><span>Coding</span><br>Programming</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2008-2014</span><br>Shree Ram JYOTI Secondary School</li>
+                    <li><span>2015-2019</span><br>Barahi Awasiya Madhyamik Bidalaya </li>
+                    <li><span>2020-2022</span><br>Global College of Management</li>
+                    <li><span>2022-Current</span><br>Herald College Kathmandu</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>HTML/CSS</span><br>Web site</li>
+                    <li><span>Figma</span><br>App Design</li>
+                    <li><span>Writing</span><br>informal/formal</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--- ------services-------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cupiditate quaerat a corporis? Maiores ducimus perspiciatis distinctio reprehenderit aliquid aspernatur totam veniam, quas, dicta, minus
+                 nam laudantium porro unde labore!.</p>
+                 <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Blog writing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cupiditate quaerat a corporis? Maiores ducimus perspiciatis distinctio reprehenderit aliquid aspernatur totam veniam, quas, dicta, minus
+                 nam laudantium porro unde labore!.</p>
+                 <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-person-chalkboard"></i>
+                <h2>Presentation</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cupiditate quaerat a corporis? Maiores ducimus perspiciatis distinctio reprehenderit aliquid aspernatur totam veniam, quas, dicta, minus
+                 nam laudantium porro unde labore!.</p>
+                 <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------Hobbies----------- -->
+<div id="Hobbies">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1>
+        <div class="Hobbies-list">
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Playing games</h2>
+                <p>Playing games is our part of life</p>
+                 <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-book-open-reader"></i>
+                <h2>Reading</h2>
+                <p>Reading make our mind more creative and learning</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-football"></i>
+                <h2>Playing Physical games</h2>
+                <p>playing cricket/football/basketbll</p>
+                 <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------Family-------- -->
+<div id="Family">
+    <div class="container">
+        <h1 class="sub-title">Family</h1>
+        <div class="Family-myself">
+            <div class="Family">
+                <img src="IMG_20200826_164917.jpg">
+                    <h3>Son</h3>
+              </div>
+            <div class="Family">
+                <img src="IMG20201017171347.jpg">
+                
+                    <h3>Father Mother</h3>
+                
+                
+            </div>
+            <div class="Family">
+                <img src="IMG_20201028_205519.jpg">
+            
+                    <h3>Daughter</h3> 
+             
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------Contact-------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> abishthapa435@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9805807934</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/abishek.thapa.54943600"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/abishek-bahadur-thapa-02588b259/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wordpress.com/posts/abishekbahadurthapa.wordpress.com"><i class="fa-brands fa-wordpress"></i></a>
+                </div>
+                <a href="cv work assignment.pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right"> 
+               <form>
+                   <input type="text" name="Name" placeholder="Your Name" required>
+                   <input type="email" name="email" placeholder="Your Email" required>
+                   <textarea name="Message" rows="6" placeholder="Your Meassage"></textarea>
+                   <button type="submit"class="btn btn2">Submit</button>
+               </form> 
+               </div>
+            </div>
+        </div>
+    </div>
+<!-----------References---------->
+<div id="References">
+    <div class="container">
+        <h1 class="sub-title">References</h1>
+         <p style="font-size:30px">This website was made by Abishek Bahadur <br>Thapa<br>Abishek 2329768</p><br>
+         <div class="References-icon">
+            <a href="https://youtu.be/0YFrGy_mzjY" target="_blank">https://youtu.be/0YFrGy_mzjY</a>
+         </div>
+    </div>
+</div>
+    <div class="copyright">
+        <p>Copyright @ Abishek. Made with <i class="fa-solid fa-heart"></i> by Portfolio Website</p>
+    </div>
+</div>
+
+<script src="https://kit.fontawesome.com/5fc2230bea.js" crossorigin="anonymous"></script>
+    <script>
+   
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        
+        }
+    
+    </script>
+    
+<script>
+
+
+    var sidemenu = document .getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function openmenu(){
+        sidemenu.style.right = "-200";
+    }
+</script>
+</body>
+</html>
